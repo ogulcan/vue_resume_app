@@ -22,7 +22,8 @@ export default {
       search: null,
       tabs: [
         { id: 1, name: "User List", route: 'userList' },
-        { id: 2, name: "Tab List", route: 'tabList'  }
+        { id: 2, name: "Experience List", route: 'experienceList' },
+        { id: 3, name: "About", route: 'about' },
       ]
     }
   },

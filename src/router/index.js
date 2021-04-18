@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import UserList from "../views/UserList";
-import TabList from "../views/TabList";
+import UserList from "../views/UserList"
+import ExperienceList from "../views/ExperienceList"
+import AboutTab from "../views/AboutTab"
 
 Vue.use(VueRouter)
 
@@ -18,9 +19,14 @@ const routes = [
         component: UserList
       },
       {
-        path: '/tabList',
-        name: 'tabList',
-        component: TabList
+        path: '/experienceList',
+        name: 'experienceList',
+        component: ExperienceList
+      },
+      {
+        path: '/about',
+        name: 'about',
+        component: AboutTab,
       },
     ]
   },
